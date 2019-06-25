@@ -28,8 +28,7 @@ setting up a web framework based on golang named gin
     * ``` [[constraint]] ```
     * ``` name = "github.com/gin-gonic/gin"```
     * ``` version = "1.4.0"```
-* 3. ``` $ dep ensure ```    
-* 4. create main.go (from official github README.md, https://github.com/gin-gonic/gin)
+* 3. create main.go (from official github README.md, https://github.com/gin-gonic/gin)
 ```go
 package main
 
@@ -45,6 +44,7 @@ func main() {
     r.Run() //listen and serve on 0.0.0.0:8000
 }
 ```
+* 4. ``` $ dep ensure ```    
 * 5. install dependency: ``` $ dep ensure ```
 * 6. run server: ``` $ go run main.go ```
 * 7. test with curl ``` curl -i http://localhost:8080/ping ```
